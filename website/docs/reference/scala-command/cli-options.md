@@ -900,6 +900,12 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+### `--native-multithreading`
+
+`SHOULD have` per Scala Runner specification
+
+Enable/disable Scala Native multithreading support
+
 ## Scalac options
 
 Available in commands:
@@ -907,6 +913,12 @@ Available in commands:
 [`bsp`](./commands.md#bsp), [`compile`](./commands.md#compile), [`doc`](./commands.md#doc), [`fmt` , `format` , `scalafmt`](./commands.md#fmt), [`repl` , `console`](./commands.md#repl), [`run`](./commands.md#run), [`setup-ide`](./commands.md#setup-ide), [`shebang`](./commands.md#shebang), [`test`](./commands.md#test)
 
 <!-- Automatically generated, DO NOT EDIT MANUALLY -->
+
+### `--args-file`
+
+`IMPLEMENTATION specific` per Scala Runner specification
+
+File with scalac options.
 
 ### `--scalac-option`
 

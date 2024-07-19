@@ -1396,6 +1396,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+### `--native-multithreading`
+
+Enable/disable Scala Native multithreading support
+
 ## Scalac options
 
 Available in commands:
@@ -1403,6 +1407,10 @@ Available in commands:
 [`bsp`](./commands.md#bsp), [`compile`](./commands.md#compile), [`dependency-update`](./commands.md#dependency-update), [`doc`](./commands.md#doc), [`export`](./commands.md#export), [`fix`](./commands.md#fix), [`fmt` , `format` , `scalafmt`](./commands.md#fmt), [`package`](./commands.md#package), [`publish`](./commands.md#publish), [`publish local`](./commands.md#publish-local), [`repl` , `console`](./commands.md#repl), [`run`](./commands.md#run), [`setup-ide`](./commands.md#setup-ide), [`shebang`](./commands.md#shebang), [`test`](./commands.md#test)
 
 <!-- Automatically generated, DO NOT EDIT MANUALLY -->
+
+### `--args-file`
+
+File with scalac options.
 
 ### `--scalac-option`
 

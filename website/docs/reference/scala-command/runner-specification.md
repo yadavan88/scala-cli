@@ -204,6 +204,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -495,6 +499,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -967,6 +975,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -1240,6 +1252,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -1532,6 +1548,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -1817,6 +1837,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -2129,6 +2153,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -2418,6 +2446,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -2739,6 +2771,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -3028,6 +3064,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -3325,6 +3365,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -3596,6 +3640,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -3948,6 +3996,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -4239,6 +4291,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -4622,6 +4678,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -4889,6 +4949,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 
@@ -5537,6 +5601,10 @@ Build target type
 
 Embed resources into the Scala Native binary (can be read with the Java resources API)
 
+**--native-multithreading**
+
+Enable/disable Scala Native multithreading support
+
 **--repository**
 
 Add repositories for dependency resolution.
@@ -5804,6 +5872,10 @@ Working directory for Bloop, if it needs to be started
 **--server**
 
 Enable / disable usage of Bloop compilation server. Bloop is used by default so use `--server=false` to disable it. Disabling compilation server allows to test compilation in more controlled mannter (no caching or incremental compiler) but has a detrimental effect of performance.
+
+**--args-file**
+
+File with scalac options.
 
 **--scalac-option**
 

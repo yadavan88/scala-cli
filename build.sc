@@ -422,9 +422,10 @@ trait Core extends ScalaCliCrossSbtModule
          |  def runnerVersion = "${runner(Scala.runnerScala3).publishVersion()}"
          |  def runnerMainClass = "$runnerMainClass"
          |
-         |  def semanticDbPluginOrganization = "${Deps.scalametaTrees.dep.module.organization.value}"
-         |  def semanticDbPluginModuleName = "semanticdb-scalac"
-         |  def semanticDbPluginVersion = "${Deps.scalametaTrees.dep.version}"
+         |  def semanticDbPluginOrganization = "${Deps.semanticDbScalac.dep.module.organization
+          .value}"
+         |  def semanticDbPluginModuleName = "${Deps.semanticDbScalac.dep.module.name.value}"
+         |  def semanticDbPluginVersion = "${Deps.semanticDbScalac.dep.version}"
          |
          |  def semanticDbJavacPluginOrganization = "${Deps.semanticDbJavac.dep.module.organization
           .value}"
@@ -678,7 +679,7 @@ trait Build extends ScalaCliCrossSbtModule
     Deps.collectionCompat,
     Deps.javaClassName,
     Deps.jsoniterCore,
-    Deps.scalametaTrees,
+    Deps.scalametaSemanticDbShared,
     Deps.nativeTestRunner,
     Deps.osLib,
     Deps.pprint,
@@ -995,6 +996,7 @@ trait CliIntegration extends SbtModule with ScalaCliPublishModule with HasTests
            |  def scalaNativeVersion         = "${Deps.Versions.scalaNative}"
            |  def scalaNativeVersion04       = "${Deps.Versions.scalaNative04}"
            |  def scalaNativeVersion05       = "${Deps.Versions.scalaNative05}"
+           |  def semanticDbJavacPluginVersion = "${Deps.semanticDbJavac.dep.version}"
            |  def ammoniteVersion            = "${Deps.ammonite.dep.version}"
            |  def defaultGraalVMJavaVersion  = "${deps.graalVmJavaVersion}"
            |  def defaultGraalVMVersion      = "${deps.graalVmVersion}"
